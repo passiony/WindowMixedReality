@@ -31,10 +31,5 @@ public class VRHand : MonoBehaviour
                 video.Play();
             }
         }
-
-        if (go.CompareTag("Lamp"))
-        {
-            go.GetComponent<Lamp>().LightOn();
-        }
     }
 }
